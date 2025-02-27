@@ -4,7 +4,7 @@ from langchain_google_genai import GoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 
 # ✅ Set API key securely
-GOOGLE_API_KEY = "AIzaSyAubZDYyEHptbhj0_Q_laHFF9qO0rtkFLQ"  # 🔴 Replace with your actual API key
+GOOGLE_API_KEY = "your api key"  # 🔴 Replace with your actual API key for security concern i did not mentioned my api key here
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY  # ✅ Store API key in environment
 
 # ✅ Initialize LangChain's Google GenAI Model
